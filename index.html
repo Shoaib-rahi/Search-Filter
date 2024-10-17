@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+      
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(45deg ,rgb(126, 126, 151),rgb(134, 117, 117));
+        padding: 0 2rem;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+         color: green;
+         font-size: 2rem;
+         margin: 2rem 0;
+    }
+    table{
+        width: 100%;
+        height: min-content;
+     
+    }
+    table tr th{
+        width: 30%;
+        height: 50px;
+        line-height: 50px;
+        border: none;
+        font-size: 2rem;
+        font-weight: bolder;
+        background-color: rgba(204, 204, 204, 0.74);
+    }
+    table tr {
+        width: 100%;
+        height: 50px;
+        font-size: 1.3rem;
+        background-color: white;
+        padding-left: 2rem ;
+    }
+    table tr td{
+        padding-left: 2rem;
+    }
+    .input{
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1.5rem 2rem;
+        border: 2px solid rgb(58, 76, 243);
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+</style>
+<body>
+        <h2>My Friends</h2>
+
+        <input type="text" placeholder="enter your frineds" id="myInput" class="input" onkeyup="searchFrind()">
+
+        <table id="myTable">
+            <tr>
+                <th>Name</th>
+                <th>Degree</th>
+                <th>Profession</th>
+            </tr>
+            <tr>
+                <td>Shoaib</td>
+                <td>BCS</td>
+                <td>Software Engeenir</td>
+            </tr>
+            <tr>
+                <td>Ramesh</td>
+                <td>MBC</td>
+                <td>Nurse</td>
+            </tr>
+            <tr>
+                <td>Amir ejaz</td>
+                <td>MBBS</td>
+                <td>Surgen</td>
+            </tr>
+            <tr>
+                <td>Shoaib Rahi</td>
+                <td>css</td>
+                <td>Assistent Commisoner</td>
+            </tr>
+            <tr>
+                <td>Haider Abdullah</td>
+                <td>IIT</td>
+                <td>Software Engeenir</td>
+            </tr>
+            <tr>
+                <td>Shujat</td>
+                <td>BCS</td>
+                <td>Software Engeenir</td>
+            </tr>
+            <tr>
+                <td>Munawwar</td>
+                <td>FSC</td>
+                <td>Enter Pass</td>
+            </tr>
+            <tr>
+                <td>Ifthikar</td>
+                <td>BCS</td>
+                <td>Software Engeenir</td>
+            </tr>
+            <tr>
+                <td>shakir</td>
+                <td>BCS</td>
+                <td>Web Developer</td>
+            </tr>
+            <tr>
+                <td>Muzammil</td>
+                <td>BCS</td>
+                <td>Software Engeenir</td>
+            </tr>
+            <tr>
+                <td>Shoaib</td>
+                <td>BCS</td>
+                <td>Software Engeenir</td>
+            </tr>
+            <tr>
+                <td>Saqlain</td>
+                <td>BCS</td>
+                <td>Software Engeenir</td>
+            </tr>
+
+        </table>
+
+        <script src="app.js"></script>
+</body>
+</html>
